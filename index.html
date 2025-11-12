@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KindUP — Роби добрі справи разом з нами</title>
+  
+  <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+ <header class="site-header">
+  <nav class="navbar navbar-expand-md py-2">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- Лого -->
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="#hero">
+        <img src="image/Logo.png" alt="KindUP логотип" class="logo-img">
+        <span class="ms-2 fw-semibold">KindUP</span>
+      </a>
+
+      <div class="d-flex align-items-center">
+  <!-- Зміна теми -->
+  <button id="themeToggle" class="btn btn-outline-primary">Тема: ☀️</button>
+  <!-- Кнопка-бургер -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</div>
+
+      <!-- Меню -->
+      <div class="collapse navbar-collapse justify-content-end mt-2 mt-md-0 burger-menu" id="mainNav" >
+
+        <ul class="navbar-nav mb-2 mb-md-0">
+          <li class="nav-item me-2"><a class="nav-link" href="#about">Проєкт</a></li>
+          <li class="nav-item me-2"><a class="nav-link" href="#directions">Напрями</a></li>
+          <li class="nav-item me-2"><a class="nav-link" href="#tree">Дерево</a></li>
+          <li class="nav-item me-2"><a class="nav-link" href="#partners">Партнери</a></li>
+          <li class="nav-item me-2"><a class="nav-link" href="#contacts">Контакти</a></li>
+          <a class="btn btn-primary me-2 d-none d-md-inline-block" href="#join">Підтримати</a>
+          <!-- Кнопка "Підтримати" (для мобільних) -->
+          <li class="nav-item d-md-none mt-2">
+            <a class="btn btn-primary w-100" href="#join">Підтримати</a>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+    </div>
+  </nav>
+</header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="section hero text-center">
+      <div class="container">
+        <h1>Роби добрі справи<br>разом з нами</h1>
+        <a class="btn btn-light" href="#join">Стати частиною команди</a>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-md-6 about-text">
+            <h1 class="text-center mb-4"><b>KindUP</b> — добро, що зростає</h1>
+                <p class="about">Ми — волонтери, друзі, партнери, небайдужі серця.<br>
+                    Ми допомагаємо тим, хто цього потребує, підтримуємо проєкти, які змінюють життя, і створюємо можливості для розвитку кожного, хто прагне робити добро.<br>
+                    Ми віримо, що маленькі добрі справи мають велику силу.<br>
+                    Коли люди об’єднуються навколо спільної мети — світ стає теплішим, а майбутнє — світлішим.<br> Тож не вагайся.<br> Приєднуйся до нас, стань частиною руху, який щодня робить життя кращим.<br> Разом ми створюємо світ, у якому добро — це не виняток, а норма.</p>
+          </div>
+          
+          <div class="col-md-6 text-center">
+            <img src="image/Logo.png" alt="Дерево добрих справ" class="img-fluid w-70">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- Directions -->
+    <section id="directions" class="section directions text-center theme-section aboutblack">
+  <div class="container block">
+    <h2 class="mb-5 theme-text">Наші напрями</h2>
+      <div class="row justify-content-center gx-3 gy-3 theme-directions">
+      <div class="col-md-4">
+        <ul class="list-unstyled mb-0">
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#zooModal">Зоозахист</a></li>
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#eduModal">Освітні ініціативи</a></li>
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#charityModal">Благодійні ініціативи</a></li>
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#elderModal">Допомога літнім людям</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled mb-0">
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#raidModal">Добові рейди</a></li>
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#inclusiveModal">Інклюзивність</a></li>
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#familyModal">Підтримка сімей</a></li>
+          <li><a href="#" class="pill btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#vulnerableModal">Турбота про вразливих</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <!-- Tree -->
+    <section id="tree" class="section tree">
+      <div class="container text-center">
+        <img id="starTree" class="img-fluid mb-4" src="image/StarTree.png" alt="Зоряне дерево" width="650" height="650">
+
+        <div class="progress-wrap" aria-label="Прогрес заповнення">
+          <div class="progress-labels d-flex justify-content-between mb-2 procent">
+            <span> Зоряне дерево заповнене на: </span>
+            <span class="percent fw-bold">75%</span>
+          </div>
+          <div class="progress">
+            <span class="bar" style="--value: 75%; width: 75%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section id="partners" class="section partners text-center">
+      <div class="container">
+        <h2 class="mb-5"><b>Наші партнери</b></h2>
+        <div class="row partners-row">
+          <!-- Партнери -->
+          <article class="col-md-3 partner">
+            <img src="image/Bonum.png" alt="Партнер 1" width="200px" height="152px">
+            <p>Благодійний Фонд «Бонум Україна» <br>
+              Це фонд який допомагає дітям які постраждали в наслідок воєнних дій та втратили здоров’я, потребують операційного втручання, реабілітації, життєво важливих лікарських препаратів чи медвиробів,  психологічної підтримки спеціалістів</p>
+          </article>
+          <article class="col-md-3 partner">
+            <img src="image/UNCG.png" alt="Партнер 2" width="200px" height="152px">
+            <p>«Українська природоохоронна група»<br>
+                яка зараз об’єднує понад 50 фахівців та активістів у галузі охорони природи з усієї України.
+                Ми створюємо заповідні території, працюємо над удосконаленням українського законодавства та виявляємо випадки незаконного знищення природи.</p>
+          </article>
+          <article class="col-md-3 partner">
+            <img src="image/konura.png" alt="Партнер 3" width="200px" height="152px">
+            <p>Благодійний фонд «Конура»<br>
+                Вони допомагають тваринам та створюють Pet Friendly Ukraine. Об’єднують людей та організації, надаючи допомогу тваринам: від евакуації з гарячих точок і лікування до гуманітарної підтримки та глобальних ініціатив із захисту прав тварин в Україні.</p>
+          </article>
+          <article class="col-md-3 partner">
+            <img src="image/RELY.png" alt="Партнер 4" width="200px" height="148px">
+            <p>Фонд «RELY» <br>
+                це фонд, який піклується про наших захисників які отримали поранення, захищаючи мир та безпеку.
+              Благодійна діяльність фонду зосереджена на допомозі ветеранам російсько-української війни які отримали поранення, а також постраждалим цивільним особам</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join -->
+    <section id="join" class="section join text-center position-relative overflow-hidden">
+  <div class="container d-flex justify-content-center align-items-center position-relative flex-wrap">
+    <!-- Ліва частина: текст -->
+    <div class="join-text transition text-md-start text-center" id="joinText">
+      <h2>Приєднуйся</h2>
+      <p class="mb-4">Заповни форму або напиши нам у соцмережі.</p>
+      <div class="cta-row zvyazok">
+        <a class="btn btn-light mb-2 mb-md-0 me-md-2" href="#contacts">Зв’язатися</a>
+        <button class="btn btn-outline" id="showFormBtn">Заповнити форму</button>
+      </div>
+    </div>
+
+    <!-- Права частина: форма -->
+   <div class="join-form card shadow p-4 d-none" id="joinForm">
+      <h5 class="mb-3">Форма приєднання</h5>
+      <form id="joinFormElement">
+        <div class="mb-3 text-start">
+          <label for="name" class="form-label">Ім’я</label>
+          <input type="text" class="form-control" id="name" placeholder="Введіть ваше ім’я" required>
+        </div>
+        <div class="mb-3 text-start">
+          <label for="email" class="form-label">Електронна пошта</label>
+          <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required>
+        </div>
+        <div class="mb-3 text-start">
+          <label for="phone" class="form-label">Номер телефону</label>
+          <input type="tel" class="form-control" id="phone" placeholder="+380..." required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Надіслати</button>
+      </form>
+</div>
+
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer id="contacts" class="site-footer">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <div class="text-center text-md-start mb-3 mb-md-0">
+      <strong>KindUP</strong> <br>
+      <span>Добро поруч.<br>Пишіть: 
+        <a href="mailto:kindupplatform@gmail.com " class="text-light text-decoration-none">
+          kindupplatform@gmail.com 
+        </a>
+      </span>
+    </div>
+
+    <div class="foot-nav d-flex">
+      <a href="#about" class="nav-link">Проєкт</a>
+      <a href="#directions" class="nav-link">Напрями</a>
+      <a href="#partners" class="nav-link">Партнери</a>
+    </div>
+
+    <!-- Соцмережі справа -->
+    <div class="social-icons-footer d-flex">
+        <a href="https://www.youtube.com/@remotongame" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+        <i class="bi bi-youtube fs-4"></i>
+      </a>
+
+       <a href="https://t.me/mraaaack" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+        <i class="bi-telegram fs-4"></i>
+      </a>
+
+      <a href="https://www.instagram.com/mrack.tg?igsh=NGg2NnZsdmF2ajB4" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+        <i class="bi bi-instagram fs-4"></i>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+<!--Код для модальних вікон-->
+
+
+<!--  1. Зоозахист  -->
+<div class="modal fade" id="zooModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Зоозахист</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p><strong>Зоозахист</strong> — це турбота про братів наших менших, які потребують допомоги, захисту та любові.</p>
+            <h6>Як можна допомогти:</h6>
+            <ul>
+              <li>Пожертвувати кошти на лікування чи харчування тварин.</li>
+              <li>Допомогти притулкам як волонтер.</li>
+              <li>Передати корм, ліки, підстилки або іграшки.</li>
+              <li>Стати тимчасовим домом для безпритульної тварини.</li>
+              <li>Поширювати інформацію про захист тварин.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/zoo.png" alt="Зоозахист" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-footer d-flex justify-content-end">
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#eduModal">
+          Далі →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  2.Освітні ініціативи -->
+<div class="modal fade" id="eduModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Освітні ініціативи</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>Ми підтримуємо навчальні проєкти, які відкривають нові можливості для дітей, молоді та дорослих.</p>
+            <h6>Як долучитися:</h6>
+            <ul>
+              <li>Фінансувати освітні програми та курси.</li>
+              <li>Проводити тренінги, лекції або майстер-класи.</li>
+              <li>Дарувати книги, техніку, навчальні матеріали.</li>
+              <li>Допомагати учням з малозабезпечених сімей.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/education.png" alt="Освітні ініціативи" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#zooModal">
+          ← Назад
+        </button>
+
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#charityModal">
+          Далі →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. Благодійні ініціативи  -->
+<div class="modal fade" id="charityModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Благодійні ініціативи</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>Ми об’єднуємо людей, які прагнуть допомогти тим, хто цього найбільше потребує.</p>
+            <h6>Що можна зробити:</h6>
+            <ul>
+              <li>Підтримати збори для лікування або відновлення.</li>
+              <li>Організовувати благодійні події.</li>
+              <li>Поширювати інформацію про ініціативи.</li>
+              <li>Долучатися як волонтер.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/charity.png" alt="Благодійні ініціативи" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-footer d-flex justify-content-between">
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#eduModal">
+          ← Назад
+        </button>
+
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#elderModal">
+          Далі →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. Допомога літнім людям -->
+<div class="modal fade" id="elderModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Допомога літнім людям</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>Ми підтримуємо людей похилого віку, які часто залишаються самотніми або потребують турботи.</p>
+            <ul>
+              <li>Приносити продукти, ліки, засоби гігієни.</li>
+              <li>Проводити час, спілкуватися, підтримувати морально.</li>
+              <li>Допомагати у побутових справах.</li>
+              <li>Організовувати доброчинні заходи.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/elder.png" alt="Допомога літнім людям" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+       <div class="modal-footer d-flex justify-content-between">
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#charityModal">
+          ← Назад
+        </button>
+
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#raidModal">
+          Далі →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 5. Добові рейди -->
+<div class="modal fade" id="raidModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Добові рейди</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>Наші волонтери проводять добові рейди для допомоги безхатченкам, тваринам і нужденним.</p>
+            <ul>
+              <li>Роздавати їжу, воду, теплі речі.</li>
+              <li>Допомагати людям знайти прихисток.</li>
+              <li>Надавати першу медичну допомогу.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/raid.png" alt="Добові рейди" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+       <div class="modal-footer d-flex justify-content-between">
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#elderModal">
+          ← Назад
+        </button>
+
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#inclusiveModal">
+          Далі →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  6. Інклюзивність  -->
+<div class="modal fade" id="inclusiveModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Інклюзивність</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>Ми створюємо середовище, де кожен відчуває себе прийнятим і рівним.</p>
+            <ul>
+              <li>Підтримка людей з інвалідністю.</li>
+              <li>Розробка доступних заходів та просторів.</li>
+              <li>Проведення освітніх програм про інклюзію.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/inclusive.png" alt="Інклюзивність" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-footer d-flex justify-content-between">
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#raidModal">
+          ← Назад
+        </button>
+
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#familyModal">
+          Далі →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--  7. Підтримка сімей  -->
+<div class="modal fade" id="familyModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Підтримка сімей</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>Ми допомагаємо сім’ям, які опинилися у складних життєвих обставинах.</p>
+            <ul>
+              <li>Забезпечення продуктами, речами, ліками.</li>
+              <li>Організація сімейних заходів і підтримка дітей.</li>
+              <li>Психологічна та юридична допомога.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/family.png" alt="Підтримка сімей" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#inclusiveModal">
+          ← Назад
+        </button>
+
+        <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#vulnerableModal">
+          Далі →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  8. Турбота про вразливих  -->
+<div class="modal fade" id="vulnerableModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Турбота про вразливих</h5>
+        <button type="button" class="btn-close-custom" data-bs-dismiss="modal">✖</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>Ми підтримуємо людей, які опинилися у складних життєвих ситуаціях — дітей, безхатченків, людей з інвалідністю.</p>
+            <ul>
+              <li>Допомога речами, продуктами, ліками.</li>
+              <li>Підтримка у соціальній адаптації.</li>
+              <li>Організація доброчинних акцій та зборів.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="image/vulnerable.png" alt="Турбота про вразливих" class="img-fluid rounded shadow photo-border">
+          </div>
+        </div>
+      </div>
+       <div class="modal-footer d-flex justify-content-between">
+
+  <button class="modal-nav-btn"
+          data-bs-dismiss="modal"
+          data-bs-toggle="modal"
+          data-bs-target="#familyModal">
+    ← Назад
+  </button>
+
+  <div class="d-flex gap-2">
+    <button class="btn btn-outline-dark modal-nav-btn" data-bs-dismiss="modal" >Закрити </button>
+    </div>
+
+<script src="script.js"></script>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init({ publicKey: "Bto4hN6Yige5AB_j9" });
+  })();
+</script>
+
+<script>
+  const form = document.getElementById("joinFormElement");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault(); // зупиняємо стандартну відправку
+
+    const templateParams = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      phone: document.getElementById("phone").value
+    };
+
+    emailjs.send('KindUP', 'KindUP', templateParams)
+      .then(() => {
+        alert("Дякуємо! Ваші дані надіслані.");
+        form.reset();
+      })
+      .catch((error) => {
+        alert("Помилка при відправці: " + error.text);
+      });
+  });
+</script>
+
+
+</body>
+</html>
